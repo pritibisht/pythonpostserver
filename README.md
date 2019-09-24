@@ -1,5 +1,5 @@
 # Device Registry Service 
-This is an example implimentation.
+For example purpose.
 
 ## Usage
 
