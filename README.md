@@ -1,4 +1,5 @@
 # Device Registry Service 
+This is an example implimentation.
 
 ## Usage
 
@@ -80,9 +81,8 @@ If a device with the given identifier already exists, the existing device will b
 ```json
 {
     "identifier": "floor-lamp",
-    "name": "Floor Lamp",
-    "device_type": "switch",
-    "controller_gateway": "192.1.68.0.2"
+    "name": "Floor Lamp",    "device_type": "switch",
+    "controller_gateway" "192.1.68.0.2"
 }
 ```
 
@@ -128,5 +128,3 @@ If a device with the given identifier already exists, the existing device will b
 }
 ```
 *curl -X POST http://localhost/jsontesting -H 'content-type: application/json' -d '{ "username": "user", "password": "password" }'*
-
-This is an example implimentation.
